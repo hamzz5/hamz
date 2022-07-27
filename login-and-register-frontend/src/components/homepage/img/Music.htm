@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Music.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> 
+    </head>
+    
+        <body>
+                <div class="main">
+                    <p id="logo"><i class="fa fa-music" aria-hidden="true"></i> Music life</p>
+
+                        <div class="left">
+                            <img id="track_image">
+
+                    </div>
+
+                <div class="textbox">
+                    <ul>
+                        <li><a href="index.html">More Info</a></li>
+                    </ul>
+                </div>
+
+                <div class="artist">
+                    <ul>
+                        <li><a href="raisa/raisa.htm">Raisa</a></li>
+                        <li><a href="sheila on 7/Sheila on 7.htm">Sheila on 7</a></li>
+                        <li><a href="">Tulus</a></li>
+                    </ul>
+                </div> 
+        
+                <div class="coverr">
+                <div class="subcover">
+                    </div>
+
+                    <div class="cover image">
+                        <img src="tulus.jpg" width="200" height="200">
+                        </div>
+
+                        <div class="text">
+                            <h2>Tulus</h2>
+                        </div>
+                    </div>
+                     
+                    <div class="context">
+                        <h5> Without <font>Music life</font><br> 
+                            would be a<font> Mistake</font></h5>
+                        <h6>Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything</h6>
+                    </div>  
+                    
+                      
+                <div class="right">
+                      <!--- middle part --->
+                    <div class="middle">
+                        <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                        <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                        <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+                         </div>
+                        
+                 </div>
+                   
+                    <!--div class="right">
+                        <img src="playuy.png" id="icon">
+                    </div-->
+
+                <div class="duration">
+                    <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+                </div>
+                
+                    <audio id="mysong">
+                        <source src="avicii.mp3" type="audio/mp3">
+                    </audio>
+                
+                    <script src="javaskrrupss.js"></script>
+                    
+
+        </body>
+</html>
